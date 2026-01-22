@@ -43,27 +43,3 @@ CyberSentinel/
 ├── docs/
 │   └── CyberSentinel_report.pdf       # Rapport technique complet
 └── README.md
-🛠️ Installation et Lancement
-Prérequis
-Docker et Docker Compose installés sur votre machine.
-
-Étapes de lancement
-Cloner le dépôt :
-
-Bash
-git clone [https://github.com/NoussairBN/CyberSentinel-RealTime-SIEM.git](https://github.com/NoussairBN/CyberSentinel-RealTime-SIEM.git)
-cd CyberSentinel-RealTime-SIEM
-Lancer l'infrastructure complète :
-
-Bash
-docker-compose up -d
-Accès aux interfaces :
-
-Kibana : http://localhost:5601 (Visualisation des alertes)
-
-Elasticsearch : http://localhost:9200 (API de données)
-
-📄 Licence
-Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
-
-Réalisé dans le cadre de la formation d'ingénieur en Cybersécurité à l'ENSA Marrakech.
